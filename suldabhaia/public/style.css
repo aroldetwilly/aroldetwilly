@@ -1,0 +1,400 @@
+
+@media screen and (min-width: 900px){
+html{
+	height:100%;
+	overflow:hidden;
+}
+body{
+	
+	margin: 0;
+	padding: 0;
+	perspective: 1px;
+	height: 100%;
+	overflow-y:scroll;
+	overflow-x: hidden;
+	font-family: "comic sans ms"; 
+	
+	
+}
+.oups{
+	position: relative;
+	left:200px;
+}
+
+.fond-vert {
+	position: absolute;
+	background-color: #8ea06d;
+	top: 1px;
+	width: 15%;
+	height: 100%;
+
+}
+.fond-vert2{
+	position: relative;
+	background-color: #8ea06d;
+	width: 15%;
+	top: -18px;
+}
+.fond-vert3{
+position: relative;
+	background-color: #8ea06d;
+	width: 15%;
+	top: -18px;
+}
+.fond-vert4{
+position: relative;
+	background-color: #8ea06d;
+	width: 15%;
+	top: -18px;
+}
+.fond-vert5{
+position: relative;
+	background-color: #8ea06d;
+	width: 15%;
+	top: -18px;
+	height: 99%;
+}
+.fond-vert7{
+	position: relative;
+	background-color: #8ea06d;
+	width: 15%;
+	top: -25px;
+	height: 100%;
+}
+
+.deconnection{
+position: relative;
+width: 500%;
+padding: 1em;
+left: 100%;
+text-align: justify;
+top: -850px;
+}
+.ou{
+	position: relative;
+	
+	top: -30%;
+	right: 90%;
+
+}
+
+.profilColor{
+	background-color: #8ea06d;
+	width: 15%;
+	top: -30px;
+}
+.profil{
+position: relative;
+width: 500%;
+padding: 1em;
+left: 100%;
+text-align: justify;
+top: -850px;
+}
+.formPage{
+	position: relative;
+	right: 100%;
+	top: -15%;
+}
+
+p{
+	color: black;
+}
+h2{
+color: black;	
+}
+h1{
+	position: relative;
+	left:15%;
+}
+h3{
+	position: relative;
+	left: 101%;
+	top: 20%;
+}
+header{
+		min-height: 100vh;
+		display: inline-flex;
+		width: 100%;
+
+		}
+
+div.description{
+position: relative;
+width: 500%;
+padding: 1em;
+left: 100%;
+text-align: justify;
+}
+.retour{
+	background-color: #dcedbb;
+	font-color:#4a2854;
+	border:2px solid  #485431;
+	border-radius: 25px;
+	width: 20%;
+}
+ .photo_acueil{
+	position: relative;
+	width: 500%;
+	top: 50px;
+	left: 110%;
+
+	}
+div.nous{
+	position: relative;
+	margin-right: 15px;
+	width:500%; 
+	height: 80%;
+	background-color: ;
+	padding: 1em;
+	left: 100%;
+	text-align: justify;
+	top: 80px;
+}
+
+div.activite{
+position: relative;
+margin-right: 15px;
+width:500%; 
+padding: 1em;
+left: 100%;
+text-align: justify;
+top: 50px;
+}
+
+
+
+.cookies-widget{
+	border:1px solid;
+	display: inline-block;
+	margin: 2em;
+	top:600px;
+	}
+.logo{
+
+    position: relative;
+  	top:350px;
+  	width: 90%;
+
+}
+
+
+.menu{
+position: relative;
+display: inline-flex;
+left: 90%;
+font-size: 20px;
+top: 185px;
+
+}
+
+li{
+	display: inline;
+	margin: 2em;
+	border:none;
+}
+div.accueille{
+	position: relative;
+	display: inline-flex;
+	background-color: ;
+	margin-right: 10px;
+	margin-left: 10px;
+	top: 180px;
+	height: 800px;
+
+}
+
+
+
+
+img.imgcontact{
+	position: relative;
+	width: 400%;
+	height: 50%;
+	margin-top: 5%;
+	left:110%;
+	top: 250px;
+	
+}
+input.message{
+	height: 100px;
+	width: 290px;
+}
+
+div.call{
+	position: relative;
+	top: -150px;
+}
+
+a{
+	color: #8ea06d;
+}
+
+#reseau{
+	
+	position: relative;
+	top: 22px;
+	left: 20%;
+	/*width: 300px;*/
+	/*height: 300px;
+	text-align: center;
+	display: inline-grid;
+	vertical-align: middle;*/
+	}
+form{
+	position: relative;
+	padding-left: 110%;
+	top: 225px;
+	width: 200%;
+}
+.envoyer{
+	background-color: #dcedbb;
+	font-color:#4a2854;
+	border:2px solid  #485431;
+	border-radius: 25px;
+}
+.valider{
+	background-color: #dcedbb;
+	font-color:#4a2854;
+	border:2px solid  #485431;
+	border-radius: 30px;
+
+}
+.retour1{
+
+	position: relative;
+	left: 320px;
+	top: 178px;
+	background-color: #dcedbb;
+	font-color:#4a2854;
+	border:2px solid  #485431;
+	border-radius: 25px;
+	width: 50%;
+
+}
+}
+
+@media screen and (min-width: 780px)AND (max-width: 899px){
+
+.fond-vert {
+	position: absolute;
+	background-color: #8ea06d;
+	width: 100%;
+	
+
+}
+.valider{
+	background-color: #dcedbb;
+	font-color:#4a2854;
+	border:2px solid  #485431;
+	border-radius: 30px;
+
+}
+	a{
+	color:   #485431;
+}
+	header{
+		
+		position:relative;
+		transform-style: inherit;
+		display: inline-flex;
+		min-width: 96vh;
+		min-height: 30vh;
+		}
+		.menu{
+position: relative;
+display: inline-flex;
+list-style-type: none;
+top: -120px;
+
+}
+
+li{
+	display: inline;
+	margin: 1em;
+	
+}
+.logo{
+
+    position: relative;
+  
+
+
+}
+p{
+			color:black;
+			text-align: justify;
+
+		}
+		 .photo_acueil{
+	position: relative;
+	width: 75%;
+	height: 75%;
+	left: 5%;
+	}
+	img.imgcontact{
+	position: relative;
+	width: 75%;
+	height: 75%;
+	margin-top: 5%;
+	left:5%;
+	
+}
+input.message{
+	height: 10em;
+	width: 60%;
+
+}
+div.calendar{
+	display: none;
+	}
+}
+@media screen and (max-width: 779px){
+
+.fond-vert {
+	position: relative;
+	background-color: #8ea06d;
+	top: 1px;
+	width: 100%;
+	height: 20%;
+
+}
+	a{
+	color:#485431;
+}
+	img.imgcontact{
+	display: none;
+}
+	 	img.photo_acueil{
+	display: none;
+}
+		p{
+			color:black;
+			text-align: justify;
+
+		}
+
+		
+		input.message{
+	height: 10em;
+	width: 60%;
+}
+#reseau{
+	background-color:none ;
+	position: relative;
+	
+	left: 5%;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	}
+.valider{
+	background-color: #dcedbb;
+	font-color:#4a2854;
+	border:2px solid  #485431;
+	border-radius: 30px;
+
+}
+	}

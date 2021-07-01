@@ -1,0 +1,40 @@
+@media(min-width: 900px){
+
+h1{
+	position: relative;
+	left: 43%;
+	}
+.form{
+	position: relative;
+	left: 40%;
+	top: 15em;
+	background-color: #8ea06d;
+}
+}
+@media(min-width: 780px)AND (max-width: 899px){
+h1{
+	position: relative;
+	left: 25%;
+
+}
+
+	.form{
+	position: relative;
+	left: 33%;
+	top: 15em;
+}
+
+}
+@media(max-width: 779px){
+	h1{
+	position: relative;
+	left: 15%;
+
+}
+	
+.form{
+	position: relative;
+	left: 25%;
+	top: 15em;
+}
+}

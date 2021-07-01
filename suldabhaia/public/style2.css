@@ -1,0 +1,49 @@
+	@media  (min-width: 900px){
+	h1{
+		position: relative;
+		left: 33%;
+
+	}
+	.form{
+		position: relative;
+		left: 25%;
+	}
+
+	}
+
+
+	@media  (min-height:780px)AND(max-width: 899px) {
+			body{
+				background-color: red;
+			}
+			h1{
+		position: relative;
+		left: 20%;
+
+	}
+		.form{
+		position: relative;
+		left: 15%;
+		
+	}
+
+		}
+
+		@media   (max-width: 779px){
+
+		input.emailconnect{
+			position: relative;
+			top: 5em;
+			left: -12em;
+		}
+		input.mot_de_passeconnect{
+			position: relative;
+			top: 10em;
+			left: -23.7em;
+		}
+	input.valider{
+			position: relative;
+			top: 15em;
+			left: -35em;
+		}
+		}
